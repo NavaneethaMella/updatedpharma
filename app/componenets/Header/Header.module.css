@@ -1,0 +1,184 @@
+/* Header.module.css */
+/*.headerWrapper {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .navbar {
+    background-color: #fff;
+  }
+  
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navigation li {
+    list-style: none;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navigation .dropdown > a:after {
+    content: ' ▼';
+  }
+  
+  .navigation .dropdown ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation .dropdown:hover ul {
+    display: block;
+  }
+  */
+  /*.headerWrapper {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  .header-lower {
+    display: flex;
+    justify-content: space-between; /* Distribute space between logo and menu */
+    /*align-items: center; /* Vertically align logo and menu */
+  /*}
+  
+  .logo-box {
+    flex-shrink: 0; /* Prevent logo from shrinking */
+  /*}
+  
+  .logo img {
+    width: 150px;
+    height: auto; /* Maintain aspect ratio */
+  /*}
+  
+  .menu-area {
+    display: flex; /* Use flexbox for the menu */
+  /*}
+  
+  .navbar {
+    background-color: #fff;
+  }
+  
+  .navigation {
+    display: flex; /* Align menu items horizontally */
+    /*list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    margin: 0 20px; /* Add space between menu items */
+  /*}
+  
+  .navigation a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .navigation .dropdown > a:after {
+    content: ' ▼';
+  }
+  
+  .navigation .dropdown ul {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navigation .dropdown:hover ul {
+    display: block;
+  }
+  */
+  /* Header.module.css */
+.headerWrapper {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px 20px;
+}
+
+.headerContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoBox a {
+  display: block;
+}
+
+.menuArea {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navigation li {
+  margin: 0 20px; /* Space between menu items */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navigation .dropdown {
+  position: relative;
+}
+
+.navigation .dropdown a::after {
+  content: ' ▼'; /* Add dropdown arrow */
+}
+
+.navigation .dropdownMenu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 100%;
+  left: 0;
+}
+
+.navigation .dropdown:hover .dropdownMenu {
+  display: block; /* Show dropdown menu on hover */
+}
+
+.navigation .dropdownMenu li {
+  padding: 10px 20px;
+}
+
+.navigation .dropdownMenu a {
+  font-weight: normal;
+  color: #333;
+}
+
+.navigation li a:hover {
+  color: #007bff; /* Hover effect for menu links */
+}

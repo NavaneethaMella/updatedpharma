@@ -1,0 +1,183 @@
+.serviceStyleTwo {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    position: relative;
+  }
+  
+  .bgLayer {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .secTitle {
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  
+  .subTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .tabsBox {
+    position: relative;
+  }
+  
+  .tabBtnBox {
+    margin-bottom: 110px;
+  }
+  
+  .tabBtns {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tabBtn {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .activeBtn {
+    background-color: #2b3d4f;
+    color: #fff;
+  }
+  
+  .tabsContent {
+    display: none;
+  }
+  
+  .tab {
+    display: block;
+  }
+  
+  .activeTab {
+    display: block;
+  }
+  
+  .contentBox {
+    margin-right: 50px;
+  }
+  
+  .listStyle {
+    list-style: none;
+    margin-bottom: 40px;
+  }
+  
+  .btnBox {
+    text-align: center;
+  }
+  
+  .theme-btn {
+    padding: 10px 20px;
+    background-color: #2b3d4f;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .theme-btn:hover {
+    background-color: #1f2b3d;
+  }
+  
+  /* Speciality Section */
+  .specialitySection {
+    background-color: #f9f9f9;
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .specialityBlock {
+    margin-bottom: 30px;
+  }
+  
+  .specialityBlockOne {
+    position: relative;
+  }
+  
+  .iconBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 40px;
+  }
+  
+  .linkText a {
+    color: #2b3d4f;
+    text-decoration: none;
+  }
+  
+  .linkText a:hover {
+    color: #1f2b3d;
+  }
+  
+  /* Working Process */
+  .workingStyleTwo {
+    padding-top: 120px;
+    padding-bottom: 110px;
+  }
+  
+  .workingBlock {
+    margin-bottom: 30px;
+  }
+  
+  .workingBlockTwo {
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .innerBox {
+    position: relative;
+  }
+  
+  .iconBox {
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 40px;
+  }
+  
+  /* FAQ Section */
+  .faqSection {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  
+  .accordionBox {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .accordionBlock {
+    margin-bottom: 20px;
+  }
+  
+  .accBtn {
+    background-color: #2b3d4f;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .accContent {
+    display: none;
+  }
+  
+  .content {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  

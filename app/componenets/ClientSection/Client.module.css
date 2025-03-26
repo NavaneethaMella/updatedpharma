@@ -1,0 +1,20 @@
+.clientsSection {
+  padding: 60px 0;
+}
+
+.clients-carousel {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.clients-logo {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.clients-logo img {
+  max-width: 100%;
+  height: auto;
+}

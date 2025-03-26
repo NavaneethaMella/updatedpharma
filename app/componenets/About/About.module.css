@@ -1,0 +1,50 @@
+.aboutStyleTwo {
+  position: relative;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.patternLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pattern1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pattern2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contentBox {
+  margin-top: 25px;
+  margin-right: 70px;
+}
+
+.contentBlockOne {
+  padding-top: 30px;
+}
+
+.list-style-one li {
+  margin-bottom: 10px;
+}
+
+.theme-btn {
+  background-color: #3498db;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}

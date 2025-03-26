@@ -1,0 +1,420 @@
+
+/*.bannerStyleTwo {
+  position: relative;
+}
+
+.bgLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.bgColor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.patternLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.contentBox {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
+
+.btnBox {
+  margin-top: 30px;
+}
+
+.theme-btn {
+  background-color: #3498db;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+}
+
+.theme-btn span {
+  position: absolute;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+.theme-btn span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.theme-btn span:nth-child(2) {
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+}
+
+.theme-btn span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.theme-btn span:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+}
+*/
+/*.bannerStyleTwo {
+  position: relative;
+}
+
+.bgLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.bgColor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.patternLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 2;
+}
+
+.contentBox {
+  position: relative;
+  z-index: 2;
+  color: white;
+  background-color: #3498db; /* Blue background */
+  /*padding: 40px;
+  width: 50%; /* Adjust width to position the content */
+  /*left: 0;
+}
+
+.btnBox {
+  margin-top: 30px;
+}
+
+.theme-btn {
+  background-color: #fff;
+  padding: 10px 20px;
+  color: #3498db;
+  text-decoration: none;
+  position: relative;
+}
+
+.theme-btn span {
+  position: absolute;
+  background-color: #3498db;
+  transition: all 0.3s ease;
+}
+
+.theme-btn span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.theme-btn span:nth-child(2) {
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+}
+
+.theme-btn span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.theme-btn span:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+}
+*/
+
+
+/*.bannerStyleTwo {
+  position: relative;
+  height: 100vh; /* Ensures the banner takes up the full viewport height */
+  /*overflow: hidden; /* Prevents the content from overflowing */
+/*}
+
+.bgLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* This will ensure the background covers the full height of the section */
+  /*background-size: cover;
+  background-position: center; /* Centers the image */
+/*}
+
+.bgColor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.patternLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: center; /* Centers the content vertically */
+  /*justify-content: flex-start; /* Aligns content to the left */
+ /* position: relative;
+  z-index: 2;
+  width: 100%; /* Ensures the wrapper takes the full width */
+/*}
+
+.contentBox {
+  position: relative;
+  z-index: 2;
+  color: white;
+  background-color: #3498db; /* Blue background */
+  /*padding: 40px;
+  width: 50%; /* Content box width */
+  /*box-sizing: border-box; /* Ensures padding does not affect the width */
+ /* left: 0;
+  height: auto; /* Height will adjust based on the content */
+/*}
+
+.logo {
+  width: 150px; /* Adjust the size of the logo */
+  /*margin-bottom: 30px; /* Space between the logo and the slogan */
+/*}
+
+.sub-title {
+  margin-bottom: 10px; /* Adjust spacing between the slogan and the title */
+ /* text-align: left; /* Aligns the slogan to the left */
+/*}
+
+.heading2 {
+  text-align: left; /* Aligns the title to the left */
+/*}
+
+.para {
+  text-align: left; /* Aligns the paragraph to the left */
+/*}
+
+.btnBox {
+  margin-top: 30px;
+}
+
+.theme-btn {
+  background-color: #fff;
+  padding: 10px 20px;
+  color: #3498db;
+  text-decoration: none;
+  position: relative;
+}
+
+.theme-btn span {
+  position: absolute;
+  background-color: #3498db;
+  transition: all 0.3s ease;
+}
+
+.theme-btn span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.theme-btn span:nth-child(2) {
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+}
+
+.theme-btn span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.theme-btn span:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+}*/
+
+.bannerStyleTwo {
+  position: relative;
+  width: 100%;
+}
+
+.bgLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.bgColor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+}
+
+.patternLayer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.contentWrapper {
+  display: flex;
+  align-items: center; /* Vertically center content */
+  justify-content: flex-start; /* Align content to the left */
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.contentBox {
+  position: relative;
+  z-index: 2;
+  color: white;
+  background-color: #3498db; /* Blue background */
+  padding: 40px;
+  width: 50%; /* Content box width */
+  box-sizing: border-box; /* Ensures padding does not affect the width */
+  left: 0;
+  height: 100%; /* Ensures the blue background extends the full height of the image */
+}
+
+.logo {
+  width: 150px; /* Adjust the size of the logo */
+  margin-bottom: 30px; /* Space between the logo and the slogan */
+}
+
+.sub-title {
+  margin-bottom: 10px; /* Adjust spacing between the slogan and the title */
+  text-align: left; /* Aligns the slogan to the left */
+}
+
+.heading2 {
+  text-align: left; /* Aligns the title to the left */
+}
+
+.para {
+  text-align: left; /* Aligns the paragraph to the left */
+}
+
+.btnBox {
+  margin-top: 30px;
+}
+
+.theme-btn {
+  background-color: #fff;
+  padding: 10px 20px;
+  color: #3498db;
+  text-decoration: none;
+  position: relative;
+}
+
+.theme-btn span {
+  position: absolute;
+  background-color: #3498db;
+  transition: all 0.3s ease;
+}
+
+.theme-btn span:nth-child(1) {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.theme-btn span:nth-child(2) {
+  top: 0;
+  right: 0;
+  width: 2px;
+  height: 100%;
+}
+
+.theme-btn span:nth-child(3) {
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.theme-btn span:nth-child(4) {
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  height: 100%;
+}
+
+
